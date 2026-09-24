@@ -6,12 +6,12 @@
 소요 시간: 00:30
 ---
 
-# GraphQL은 SDL입니다: 코드젠 기반 GraphQL 프레임워크, NecrassRs 제작기
+# GraphQL은 SDL입니다: 스키마 퍼스트 기반 GraphQL 프레임워크, NecrassRs 제작기
 
 ## 발표 전체 요약
 
  이 발표에서는 GraphQL API의 공개 계약을 Rust 코드에서 추론하기보다 GraphQL SDL로 먼저 정의하고, 그 계약에서 Rust 코드를 생성하는 방식을 소개합니다.
- 이 아이디어를 적용해 만든 Rust용 GraphQL 프레임워크 NecrassRs를 시연하고, SDL 기반 코드 생성이 실제 구현에서 어떤 이점과 한계를 만드는지 살펴봅니다.
+ 이 스키마 퍼스트 아이디어를 적용해 만든 Rust용 GraphQL 프레임워크 NecrassRs를 시연하고, SDL 기반 코드 생성이 실제 구현에서 어떤 이점과 한계를 만드는지 살펴봅니다.
 
 ## 발표 개요
 
@@ -73,7 +73,7 @@
 
 ## 마무리 - 1분
 
-> GraphQL API의 계약을 GraphQL SDL로 먼저 정의하고, 호스트 언어가 그 계약을 구현하도록 만들 수 있습니다.
+> GraphQL API의 계약을 GraphQL SDL로 먼저 정의하고, 호스트 언어가 그 계약을 구현하는 스키마 퍼스트를 실천할 수 있습니다.
 > 이것이 “GraphQL은 SDL입니다”라는 제목으로 말하고 싶었던 의미입니다.
 
 ## 발표를 통해 청중이 얻을 수 있는 것
